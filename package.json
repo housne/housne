@@ -1,0 +1,21 @@
+{
+  "name": "housne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/**/*.html",
+    "build": "parcel build src/**/*.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-inliner": "^1.0.14",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}
