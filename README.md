@@ -1,5 +1,3 @@
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=housne&hide_title=true&show_icons=true" />
-
 ### Hello there 👋
 
 I'm A Web development engineer, I use Python/Node.js/Typescript.
