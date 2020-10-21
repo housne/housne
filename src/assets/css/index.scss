@@ -2,15 +2,27 @@
 
 @include normalize();
 
+:root {
+  --theme: #f5f5f5;
+  --primary: #333;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --theme: #1d1e20;
+    --primary: rgba(255, 255, 255, 0.84);
+  }
+}
+
 html {
   font-size: 18px;
 }
 
 body {
-  background: #f5f5f5;
+  background: var(--theme);
   font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
   font-size: 1rem;
-  color: #333;
+  color: var(--primary);
 }
 
 main {
